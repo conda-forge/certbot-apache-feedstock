@@ -1,5 +1,5 @@
 {% set name = "certbot-apache" %}
-{% set version = "5.3.1" %}
+{% set version = "5.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 29b564b86483a0328b26c7df97a0b63a79039884e7a248c245386ec35ba373ca
+  sha256: be3e6d8d2c3df861f852535f869beec7a024350c32d8ba3182b40328cf28839a
 
 build:
   number: 0
